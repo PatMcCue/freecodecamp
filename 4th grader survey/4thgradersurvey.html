@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Fourth Grader Survey</title>
+    <link rel="stylesheet" href="4thgradersurvey.css"/>
+  </head>
+  <body>
+    <h1 id="title">Fourth Grader Survey</h1>
+<p id="description">Please take the time to inform me a little bit about yourself.</p>
+<form id="survey-form"><fieldset>
+  <label for="name" id="name-label">Name<input  id="name" type="text" placeholder="Name here" required></label>
+  <label for="email-label" id="email-label">Email<input id="email" type="email" placeholder="Email here" required></label>
+  <label for "number-label" id="number-label">Age<input id="number" type="number" placeholder="#" name="age" min="13" max="120" required></label></fieldset>
+  <label for="dropdown">How much do you read per week?<select id="dropdown" type="dropdown" required> <option value="not-at-all">Not at all</option><option>1-2 hours/week</option><option>3-5 hours/week</option><option>5-10 hours/week</option></select></label></fieldset><fieldset>
+  <label >How many years have you been at Clancy School?</label><label for="0-1"><input id="0-1" type="radio" value="0-1" name="years" class="inline" /> 0-1</label><label for="2"><input id="2" type="radio" 
+value="2"
+name="years" class="inline" /> 2</label><label for="3"><input id="3" type="radio" value="3" name="years" class="inline" /> 3</label><label for="4"><input id="4" type="radio" value="4" name="years" class="inline" /> 4</label></fieldset>
+  <fieldset><label>What are some of your favorite subjects at school?</label><label for="math">
+          <input id="math" type="checkbox"  name="math" class="inline" value="math" /><label for="math">Math</label>
+          <input id="reading" type="checkbox" required name="reading" class="inline" value="reading" /><label for="reading">Reading</label>
+          <input id="science" type="checkbox" name="science" class="inline" value="science" /><label for="science">Science</label>
+          <input id="social-studies" type="checkbox" name="social-studies" class="inline" value="social-studies" /><label for="social-studies">Social Studies</label>
+          <input id="music" type="checkbox"  name="music" class="inline" value="music" /><label for="music">Music</label>
+          <input id="pe" type="checkbox"  name="pe" class="inline" value="pe" /><label for="pe">P.E.</label>
+          <input id="library" type="checkbox"  name="library" class="inline" value="library" /><label for="library">Library</label>
+          <input id="art" type="checkbox"  name="art" class="inline" value="art" /><label for="art">Art</label>
+          </fieldset>
+<fieldset><label for="bio">What else should I know about you?
+          <textarea id="bio" name="bio" rows="5" cols="47" placeholder="Hi, my name is ______ and..."></textarea>
+        </label>
+      </fieldset>
+</fieldset><input type="submit" id="submit" value="Submit"/></form>
+</body>
+</html>
