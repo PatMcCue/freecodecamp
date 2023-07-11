@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ch06-07 Multiplication Tables HTML generator</title>
+    <link rel="stylesheet" href="multiplicationtables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+
+    <script src="multiplicationtables.js"></script>
+</head>
+
+<body>
+    <div class="heading"><p class="menuHeading">Build a Multiplication Table</p></div>
+    <!-- Multiplication table list will be built by code-->
+    <div class="tableBox">
+    <ul class="menuMultiplicationTableList" id="multiplicationTableList">
+    </ul></div>
+    <div class="inputSection"><p class="menuText">Enter a <i>factor</i> to start with :
+        <input class="menuInput" type="number" id="tableNumberText" value="2" min="2" max="12"> </p>
+
+    <button class="menuButton" onclick="doMultiplicationTables();">Make the table!</button></div>
+</body>
+
+</html>

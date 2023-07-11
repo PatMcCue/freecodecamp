@@ -1,0 +1,110 @@
+.menuHeading {
+    font-size: 4em;
+    font-family: 'Darumadrop One', cursive;
+    color:magenta;
+    text-shadow: 3px 3px 0 cyan, 10px 10px 10px grey;
+}
+
+.menuText,.menuMultiplicationTableList, .menuButton, .menuInput
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color:black;
+}
+
+.menuText {
+    margin: 10px;
+}
+
+.menuMultiplicationTableList { 
+    margin: 20px;
+    list-style: none;
+    border: 3px solid black;
+    padding: 25px;
+}
+
+.menuInput {
+    font-size: 1em;
+    width: 2em;
+    padding-left: 10px;
+}
+
+.menuButton {
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.menuYes {
+    color: green;
+}
+
+.menuNo{
+    color: red;
+}
+
+.tableBox, .heading {
+    display: flex;
+    justify-content: center;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+button.menuButton {
+    font-family: 'Darumadrop One', cursive;
+    margin-top: 10px; /* optional */
+    align-self: center;
+    padding: 10px;
+    background-color: cyan;
+    border-radius: 6px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px black;
+    transition: transform 0.05s ease-in-out;
+  }
+
+button.menuButton:hover {
+    color: white;
+    box-shadow: 1px 1px black;
+    transform: translateY(2px);
+    text-shadow: 2px 2px 0px black;
+
+
+  }
+
+i {
+    font-family: 'Darumadrop One', cursive;
+    color:magenta;
+    text-shadow: 3px 3px 0 cyan, 3px 2px 3px grey;
+    display: inline-block;
+  }
+
+i:hover {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(3deg);
+  }
+  80% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+

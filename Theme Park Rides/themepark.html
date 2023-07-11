@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ch06-06 For of loop</title>
+    <link rel="stylesheet" href="themepark.css">
+    <script src="themepark.js"></script>
+</head>
+
+<body>
+    <div class="heading">
+    <p class="menuHeading">PAT'S Wonder FUNLAND</p></div>
+    <p class="menuText">Which rides can you ride?</p>
+    <div class="listDisplay">
+        <ul class="menuRideList" id="rideList">
+            <li data-MinAge="0" data-MaxAge="120" data-image="https://media1.orlandoweekly.com/orlando/imager/u/zoom/32969635/screen_shot_2022-11-23_at_10.09.05_am.png?cb=1669220419">Scenic River Cruise</li>
+            <li data-MinAge="3" data-MaxAge="120" data-image="">Carnival Carousel</li>
+            <li data-MinAge="6" data-MaxAge="120" data-image="">Jungle Adventure Water Splash</li>
+            <li data-MinAge="8" data-MaxAge="120" data-image="">Haunted House</li>
+            <li data-MinAge="9" data-MaxAge="120" data-image="">Killer Accountants</li>
+            <li data-MinAge="12" data-MaxAge="120" data-image="">Downhill Mountain Run</li>
+            <li data-MinAge="15" data-MaxAge="70" data-image="">Swamp Monster Escape</li>
+            <li data-MinAge="12" data-MaxAge="70" data-image="">The Regurgitator</li>
+        </ul>
+
+        <div class="image-container">
+        <img src="" alt="" class="image">
+            </div>
+    </div>
+<div class="input-container">
+    <p class="menuText">Enter your age:
+        <input class="menuInput" type="number" id="ageText" value="18" min="0" max="100"> </p>
+
+    <button class="menuButton" onclick="doCheckAge()">Check your rides</button>
+</div>
+</body>
+
+</html>

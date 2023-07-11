@@ -1,0 +1,89 @@
+body {
+    background-color:rgba(1, 158, 255, 0.2)
+}
+
+.menuHeading {
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(175, 211, 247);
+    text-shadow: 2px 3px 0 rgb(243, 240, 240), 10px 10px 10px rgb(197, 196, 196);
+    word-wrap: break-word;
+    text-align: center;
+    -webkit-text-stroke: 2px #000000;
+    text-stroke: 4px #000000;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/136412/pexels-photo-136412.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menuText,.menuRideList, .menuButton, .menuInput
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color:black;
+}
+
+.menuText {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+.menuRideList{
+    margin: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menuInput {
+    font-size: 1em;
+    width: 2em;
+    margin-left: 10px;
+
+}
+
+button {
+    font-family: sans-serif, Arial, Helvetica, ;
+    border-radius: 10%;
+    border: 2px solid black;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px;
+    transition: box-shadow 0.01s ease-in-out;
+    margin-bottom: 10px;
+    
+}
+
+button:hover {
+    background-color: rgb(218, 237, 248);
+    box-shadow: 3px 7px 10px black;
+    color: white;
+}
+
+.menuYes {
+    color: green;
+}
+
+.menuNo{
+    color: red;
+}
+
+
+.list-display {
+    display: flex;
+    flex: 1;
+}
